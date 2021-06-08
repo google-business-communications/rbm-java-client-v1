@@ -15,8 +15,8 @@ The documentation for the RCS Business Messaging API can be found [here](https:/
 
 You must have the following software installed on your machine:
 
-    * [Apache Maven](http://maven.apache.org) 3.3.9 or greater
-    * [Java 8](http://www.oracle.com/technetwork/java/javase/downloads/index.html)
+* [Apache Maven](http://maven.apache.org) 3.3.9 or greater
+* [Java 8](http://www.oracle.com/technetwork/java/javase/downloads/index.html)
 
 ## Before you begin
 
