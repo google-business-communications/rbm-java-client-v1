@@ -35,28 +35,26 @@ You must have the following software installed on your machine:
 ### Setup your test device
 
 1. In a terminal, navigate to this sample's root directory.
-
-1. Run the following commands:
-
-    mvn compile
-    mvn exec:java -Dexec.args="TEST_DEVICE_PHONE_NUMBER invite"
-
-    Where the TEST_DEVICE_PHONE_NUMBER is replaced by the phone number of your RCS-enabled device in E.164 format.
     
-    For example, with the US phone number +1-222-333-4444, the value would be +12223334444.
+1. Run the following commands:
+    
+   mvn compile
+   mvn exec:java -Dexec.args="TEST_DEVICE_PHONE_NUMBER invite"
+   
+   Where the TEST_DEVICE_PHONE_NUMBER is replaced by the phone number of your RCS-enabled device in E.164 format.
+   For example, with the US phone number +1-222-333-4444, the value would be +12223334444.
 
 ### Run the sample
 
 1. In a terminal, navigate to this sample's root directory.
-
+    
 1. Run the following commands:
-
-    mvn compile
-    mvn exec:java -Dexec.args="TEST_DEVICE_PHONE_NUMBER chat"
-
-    Where the TEST_DEVICE_PHONE_NUMBER is replaced by the phone number of your RCS-enabled device in E.164 format.
-
-    For example, with the US phone number +1-222-333-4444, the value would be +12223334444.
+    
+   mvn compile
+   mvn exec:java -Dexec.args="TEST_DEVICE_PHONE_NUMBER chat"
+   
+   Where the TEST_DEVICE_PHONE_NUMBER is replaced by the phone number of your RCS-enabled device in E.164 format.
+   For example, with the US phone number +1-222-333-4444, the value would be +12223334444.
 
 ## Learn more
 
